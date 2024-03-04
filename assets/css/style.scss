@@ -1,0 +1,56 @@
+---
+---
+
+@import 'jekyll-theme-cayman';
+
+.main-content{
+  max-width: 80rem;
+}
+
+table, td {
+    table-layout: fixed;
+    background-color: transparent;
+    border-collapse: collapse;
+    padding: 2px 2px;
+    text-align: center;
+}
+
+th {
+    padding: 3px 10px;
+    font-weight: 100;
+    background-color: transparent;
+    height: 30px;
+}
+
+table tr {
+    background-color: transparent;
+    font-weight: normal;
+    height: 40px;
+}
+
+audio {
+  width: 180px;
+  padding: 1px;
+}
+
+footer {
+  display: none !important;
+}
+
+li {
+  margin-bottom: 18px;
+}
+
+.progress-bar {
+  width: 800px;
+  height: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+.progress {
+  height: 100%;
+  background-color: #4CAF50;
+  border-radius: 10px;
+  width: 0;
+  transition: width 0.5s ease-in-out;
+}
