@@ -7,7 +7,7 @@
 <img align="center" src="resources\Architecture.png" style="  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;" />
+  width: 35%;" />
 
 
 <script type="text/javascript">
