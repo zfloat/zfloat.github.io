@@ -76,9 +76,9 @@
 </script>
 
 
-## 意图接口 
+<h2>意图接口</h2>
 <form  method="get">
-  <p><input type="text" name="fname" value="请输入业务意图..." style="width: 600px;height:100px; margin-left:100px" />   <button style="width:200px; height:200px; border: none; border-radius: 10px; font-family: sans-serif;" type="button" onclick='progress()' >1. 运行</button></p>
+  <p><input type="text" name="fname" value="请输入业务意图..." style="width: 600px;height:100px; margin-left:100px" />   <button style="width:100px; height:50px; border: none; border-radius: 10px; font-family: sans-serif;" type="button" onclick='progress()' >1. 运行</button></p>
  
   <!-- <input type="submit" value="Submit" /> -->
 </form>
