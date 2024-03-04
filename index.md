@@ -93,7 +93,7 @@
     <table style='width: 100%;' id='mytab1'>
         <thead>
         <tr>
-            <th width="800px">模型输出-1 </th>
+            <th width="800px">Frenetic网络策略输出</th>
             <!-- <th width="400px">模型输出-2</th>
             <th width="400px">实际答案</th> -->
         </tr>
@@ -121,7 +121,7 @@
     <table style='width: 100%;' id='mytab2'>
         <thead>
         <tr>
-            <th width="800px">模型输出-2</th>
+            <th width="800px">设备配置输出</th>
             <!-- <th width="400px">模型输出-2</th>
             <th width="400px">实际答案</th> -->
         </tr>
