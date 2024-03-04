@@ -17,7 +17,7 @@
             var table = document.getElementById("mytab1");
             var td1=table.getElementsByTagName("tr").item(1).getElementsByTagName("td").item(0)
 
-            code1 = 'import frenetic\nfrom frenetic.syntax import *\n \nclass MyApp(frenetic.App):\n    p1 = IP4DstEq(106.11.226.158, 32)\n    p2 = IP4DstEq(211.144.27.126, 32)\n    p3 = IP4DstEq(218.2.112.234, 32)\n    selectPacket = Or([p1, p2, p3])\n    Drop(selectPacket)\n    \napp = MyApp()\napp.start_event_loop()'
+            code1 = 'import frenetic\\nfrom frenetic.syntax import *\\n \\nclass MyApp(frenetic.App):\\n    p1 = IP4DstEq(106.11.226.158, 32)\\n    p2 = IP4DstEq(211.144.27.126, 32)\\n    p3 = IP4DstEq(218.2.112.234, 32) \\n    selectPacket = Or([p1, p2, p3])\\n    Drop(selectPacket)\\n    \\napp = MyApp()\\napp.start_event_loop()'
             code2 =  'print("hello world2")'
             defined_content = '<pre>' + code1 + '\n' + code2 + '</pre>'
             td1.innerHTML = defined_content
