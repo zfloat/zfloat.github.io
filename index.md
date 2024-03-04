@@ -78,7 +78,7 @@
 
 <h2>意图接口</h2>
 <form  method="get">
-  <p><input type="text" name="fname" value="请输入业务意图..." style="width: 600px;height:100px; margin-left:100px" />   <button style="width:100px; height:50px; border: none; border-radius: 10px; font-family: sans-serif;" type="button" onclick='progress()' >1. 运行</button></p>
+  <p><input type="text" name="fname" value="请输入业务意图..." style="width: 600px;height:100px; margin-left:100px" />   <button style="width:100px; height:50px; border: none; border-radius: 10px; font-family: sans-serif; margin-left:50px" type="button" onclick='progress()' >确认业务</button></p>
  
   <!-- <input type="submit" value="Submit" /> -->
 </form>
@@ -110,7 +110,7 @@
 
 
 
- <button style="width:800px; height:50px; border: none; border-radius: 10px; font-family: sans-serif;margin-left:100px" type="button" onclick='progress2()' >2. 转化</button>
+ <button style="width:800px; height:50px; border: none; border-radius: 10px; font-family: sans-serif;margin-left:100px" type="button" onclick='progress2()' >配置生成</button>
 
  <div class="progress-bar" style="margin-top:10px; margin-bottom:20px; margin-left:100px">
   <div class="progress" id="progress2"></div>
