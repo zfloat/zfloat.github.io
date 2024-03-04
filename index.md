@@ -2,12 +2,12 @@
 
 ## 系统模块介绍
 
- 意图网络架构下的智能配置模块如下图所示，包括四层结构：应用层包含意图解析引擎，向上为用户及网络管理人员提供服务，收集用户表达的意图并将提取意图关键词；抽象层包含业务编排器，根据网络资源状态及意图关键词生成网络策略；控制层包含全局SDN控制器及其下管的支持OpenFlow协议的域控制器与支持NETCONF协议的域控制器；数据层包含支持OpenFlow协议的底层网元设备与支持NETCONF协议的底层网元设备，这些设备分别受对应的域控制器的管控。
+ <p style="text-indent: 2em;">意图网络架构下的智能配置模块如下图所示，包括四层结构：应用层包含意图解析引擎，向上为用户及网络管理人员提供服务，收集用户表达的意图并将提取意图关键词；抽象层包含业务编排器，根据网络资源状态及意图关键词生成网络策略；控制层包含全局SDN控制器及其下管的支持OpenFlow协议的域控制器与支持NETCONF协议的域控制器；数据层包含支持OpenFlow协议的底层网元设备与支持NETCONF协议的底层网元设备，这些设备分别受对应的域控制器的管控。
 
 <img align="center" src="resources\Architecture.png" style="  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;" />
+  width: 20%;" />
 
 
 <script type="text/javascript">
@@ -76,9 +76,9 @@
 </script>
 
 
-## 模型演示 
+## 意图接口 
 <form  method="get">
-  <p><input type="text" name="fname" value="请输入..." style="width: 600px;height:200px; margin-left:100px" />   <button style="width:200px; height:200px; border: none; border-radius: 10px; font-family: sans-serif;" type="button" onclick='progress()' >1. 运行</button></p>
+  <p><input type="text" name="fname" value="请输入业务意图..." style="width: 600px;height:100px; margin-left:100px" />   <button style="width:200px; height:200px; border: none; border-radius: 10px; font-family: sans-serif;" type="button" onclick='progress()' >1. 运行</button></p>
  
   <!-- <input type="submit" value="Submit" /> -->
 </form>
