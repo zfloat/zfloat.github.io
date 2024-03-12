@@ -19,7 +19,7 @@
 
             
             code1 = 'import frenetic\nfrom frenetic.syntax import *\n \nclass MyApp(frenetic.App):\n    p1 = IP4DstEq(220.181.38.184, 32)\n    p2 = IP4DstEq(211.144.27.126, 32)\n    p3 = IP4DstEq(106.11.226.158, 32)\n    selectPacket = Or([p1, p2, p3])\n    Drop(selectPacket)\n    \napp = MyApp()\napp.start_event_loop()'
-            // code2 =  'print("hello world2")'
+            code2 =  ''
             defined_content = '<pre style="text-align: left;">' + code1 + '\n' + code2 + '</pre>';
             td1.innerHTML = defined_content
         }
