@@ -82,16 +82,14 @@
   <p><textarea name="fname" style="width: 600px; height: 100px; margin-left:100px">请输入业务意图...</textarea>   
   <button style="width:100px; height:50px; border: none; border-radius: 10px; font-family: sans-serif; margin-left:50px;margin-top: 25px;" type="button" onclick='progress()' >确认业务</button></p> -->
  
-  <!-- <input type="submit" value="Submit" /> -->
-
+<!-- </form> -->
 <form method="get">
-  <p>
-    <textarea name="fname" style="width: 600px; height: 100px; margin-left:100px;">请输入业务意图...</textarea>   
-    <button style="width:100px; height:50px; border: none; border-radius: 10px; font-family: sans-serif; margin-left:50px; margin-top: 25px;" type="button" onclick='progress()'>确认业务</button>
+  <p style="display: flex; align-items: center; margin-left: 100px;">
+    <textarea name="fname" style="width: 600px; height: 100px; margin-right: 50px;">请输入业务意图...</textarea>   
+    <button style="width:100px; height:50px; border: none; border-radius: 10px; font-family: sans-serif;" type="button" onclick='progress()'>确认业务!</button>
   </p>
 </form>
 
-</form>
 
 
 <div class="progress-bar" style="margin-top:10px; margin-bottom:20px; margin-left:100px">
